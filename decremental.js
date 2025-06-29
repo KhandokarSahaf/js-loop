@@ -1,3 +1,3 @@
-for (ii = 20; ii > 0; ii--) {
-  console.log(ii);
+for (i = 20; i >= 13; i--) {
+  console.log(i);
 }
