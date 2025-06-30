@@ -1,4 +1,4 @@
-// 1.************* Declare an array *************
+// 1.*** Declare an array ***
 const fruits = ["apple", "pineapple", "guava", "jackfruit", "banana"];
 
 console.log(fruits);
@@ -10,7 +10,7 @@ console.log(fruits[3]);
 fruits[2] = "jambura";
 console.log(fruits);
 
-// 2.************* Add or remove elements *************
+// 2.*** Add or remove elements ***
 const touristPlace = ["rangamati", "cox'bazar", "bandorban"];
 console.log(touristPlace);
 
@@ -26,3 +26,12 @@ console.log(touristPlace);
 touristPlace.pop();
 // display the final array as output
 console.log(touristPlace);
+
+// 3.***  Checking Array Membership with ‘includes’ ***
+let books = ["English", "Bangla", "Chemistry", "Physics", "ICT"];
+
+if (books.includes("javascript")) {
+  console.log("This array contain a javascript book");
+} else {
+  console.log("No javascript here..");
+}
