@@ -17,3 +17,7 @@ console.log(touristPlace);
 // Add a new tourist destination to your tourist array
 touristPlace.push("Srimongol");
 console.log(touristPlace);
+
+// Add two more to your array
+touristPlace.push("Chattrogram", "Sylhet");
+console.log(touristPlace);
