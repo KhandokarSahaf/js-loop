@@ -13,3 +13,7 @@ console.log(fruits);
 // 2.************* Add or remove elements *************
 const touristPlace = ["rangamati", "cox'bazar", "bandorban"];
 console.log(touristPlace);
+
+// Add a new tourist destination to your tourist array
+touristPlace.push("Srimongol");
+console.log(touristPlace);
