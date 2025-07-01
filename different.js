@@ -16,3 +16,12 @@ for (let i = 1; i <= 20; i++) {
 for (let i = 1; i <= 20; i += 2) {
   console.log(i);
 }
+
+// *** 4rd type *** \\
+// give me the list numbers between 1 to 30 divisible by 5
+
+for (iz = 1; iz <= 30; iz++) {
+  if (iz % 5 === 0 && iz % 3 === 0 ) {
+    console.log(iz);
+  }
+}
