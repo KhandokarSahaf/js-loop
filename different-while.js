@@ -36,3 +36,17 @@ while (z <= 30) {
   }
   z++;
 }
+
+// give me the sum of numbers from 1 to 20 that are divisible by 3
+let a = 1;
+let sum = 0;
+
+while (a <= 20) {
+  if (a % 3 === 0) {
+    console.log(a);
+    sum = sum + a;
+  }
+  a++;
+}
+
+console.log(`total sum is`, sum);
