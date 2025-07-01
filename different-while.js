@@ -23,4 +23,16 @@ let x = 1;
 
 while (x <= 20) {
   console.log(x);
+  x += 2;
+}
+
+// *** 4rd type *** \\
+// give me the list numbers between 1 to 30 divisible by 5
+let z = 1;
+
+while (z <= 30) {
+  if (z % 5 === 0) {
+    console.log(z);
+  }
+  z++;
 }
