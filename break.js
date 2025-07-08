@@ -1,8 +1,23 @@
-let i = 40;
-while (i >= 10) {
+// *** incremental while loop *** \\
+
+let i = 0;
+
+while (i <= 20) {
   console.log(i);
-  if (i < 20) {
+  if (i === 15) {
     break;
   }
-  i--;
+  i++;
+}
+
+//  *** decremental while loop *** \\\
+
+let x = 40;
+
+while (x > 0) {
+  console.log(x);
+  if (x === 15) {
+    break;
+  }
+  x--;
 }
