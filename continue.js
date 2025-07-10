@@ -1,17 +1,8 @@
-// continue ===> skip this iteration
-// break ===> i am done with this loop. loop end .
+//  continue usage in for loop
 
-let x = 0;
-while (x < 15) {
-  x++;
-  if (x % 5 !== 0) {
-    continue;
-  }
-  console.log(x);
-}
-// for loop '
-for (i = 0; i < 20; i++) {
-  if (i % 10 !== 1) {
+//  for loop
+for (i = 1; i <= 30; i++) {
+  if (i % 5 !== 0) {
     continue;
   }
   console.log(i);
